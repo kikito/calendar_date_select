@@ -111,6 +111,11 @@ iframe.ie6_blocker {
 .calendar_date_select tbody td {
   border-bottom: 1px solid #555;
 }
+
+.calendar_date_select td.highlighted {
+  background-color:#999;
+}
+
 .calendar_date_select td.selected {
   background-color:white;
 }
@@ -126,7 +131,6 @@ iframe.ie6_blocker {
 .calendar_date_select td.disabled div {
   color: #454545;
 }
-
 
 .fieldWithErrors .calendar_date_select {
   border: 2px solid red;

@@ -113,6 +113,11 @@ iframe.ie6_blocker {
 .calendar_date_select tbody td {
   border-bottom: 1px solid #550000;
 }
+
+.calendar_date_select td.highlighted {
+  background-color:#c00;
+}
+
 .calendar_date_select tbody td.selected {
   background-color:white;
   color:black;
@@ -120,7 +125,7 @@ iframe.ie6_blocker {
 
 .calendar_date_select tbody td:hover {
   background-color:#ccc;
-} 
+}
 
 .calendar_date_select tbody td.today {
   border: 1px dashed red;

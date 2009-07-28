@@ -104,6 +104,11 @@ iframe.ie6_blocker {
 .calendar_date_select td div {
   color: #000;
 }
+
+.calendar_date_select td.highlighted {
+  background-color:#99f;
+}
+
 .calendar_date_select td div.other {
   color: #ccc;
 }
