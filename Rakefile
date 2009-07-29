@@ -4,6 +4,9 @@
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
+
+
+    gemspec.files = FileList['lib/**/*'] + FileList['public/**/**/**/*']
     gemspec.name = "calendar_date_select"
     gemspec.summary = "calendar_date_select fork; includes highlighting"
     gemspec.description = "This is a fork of the original calendar_date_select, including the additional feature of highlighting dates on the calendar without disabling other dates"
